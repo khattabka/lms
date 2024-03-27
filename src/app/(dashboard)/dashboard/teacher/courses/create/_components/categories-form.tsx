@@ -132,6 +132,8 @@ export const CategoryForm = ({
                 <FormItem>
                   <FormControl>
                     <Combobox
+                    // @ts-ignore
+                    onChange={()=> {}}
                       options={...options}
                       {...field}
                     />
