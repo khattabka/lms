@@ -133,7 +133,9 @@ export const CategoryForm = ({
                   <FormControl>
                     <Combobox
                     // @ts-ignore
-                    onChange={()=> {}}
+                    onChange={()=> {
+                      console.log(field.value);
+                    }}
                       options={...options}
                       {...field}
                     />
